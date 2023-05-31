@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ephratria.Authentication.Application\Ephratria.Authentication.Application.csproj" />
+    <ProjectReference Include="..\Ephratria.Authentication.Infrastructure\Ephratria.Authentication.Infrastructure.csproj" />
+    <ProjectReference Include="..\Ephratria.Authentication.Contract\Ephratria.Authentication.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

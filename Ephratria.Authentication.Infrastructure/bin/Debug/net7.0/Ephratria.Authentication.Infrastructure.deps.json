@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Ephratria.Authentication.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Ephratria.Authentication.Application": "1.0.0",
+          "Ephratria.Authentication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Ephratria.Authentication.Infrastructure.dll": {}
+        }
+      },
+      "Ephratria.Authentication.Application/1.0.0": {
+        "dependencies": {
+          "Ephratria.Authentication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Ephratria.Authentication.Application.dll": {}
+        }
+      },
+      "Ephratria.Authentication.Domain/1.0.0": {
+        "runtime": {
+          "Ephratria.Authentication.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ephratria.Authentication.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ephratria.Authentication.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ephratria.Authentication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

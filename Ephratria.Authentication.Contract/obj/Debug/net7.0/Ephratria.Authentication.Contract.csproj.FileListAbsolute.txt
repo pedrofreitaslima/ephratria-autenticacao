@@ -1,0 +1,12 @@
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/bin/Debug/net7.0/Ephratria.Authentication.Contract.deps.json
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/bin/Debug/net7.0/Ephratria.Authentication.Contract.dll
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/bin/Debug/net7.0/Ephratria.Authentication.Contract.pdb
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/Ephratria.Authentication.Contract.csproj.AssemblyReference.cache
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/Ephratria.Authentication.Contract.GeneratedMSBuildEditorConfig.editorconfig
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/Ephratria.Authentication.Contract.AssemblyInfoInputs.cache
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/Ephratria.Authentication.Contract.AssemblyInfo.cs
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/Ephratria.Authentication.Contract.csproj.CoreCompileInputs.cache
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/Ephratria.Authentication.Contract.dll
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/refint/Ephratria.Authentication.Contract.dll
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/Ephratria.Authentication.Contract.pdb
+/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/Debug/net7.0/ref/Ephratria.Authentication.Contract.dll

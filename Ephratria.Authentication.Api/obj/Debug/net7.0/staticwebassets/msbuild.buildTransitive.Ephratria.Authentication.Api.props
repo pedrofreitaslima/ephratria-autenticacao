@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Ephratria.Authentication.Api.props" />
+</Project>

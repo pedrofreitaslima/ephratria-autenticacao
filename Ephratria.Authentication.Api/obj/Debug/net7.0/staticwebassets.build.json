@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xNL+TkYuI+3GtbmohRtQ58AKTf/3ZzNao//PJf7a1VY=",
+  "Source": "Ephratria.Authentication.Api",
+  "BasePath": "_content/Ephratria.Authentication.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
