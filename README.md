@@ -1,15 +1,120 @@
-# EPhratria
+# Ephratria
+# Authenctication API
+## Description
+This project is a micro services that compose the EPhratria ecommerce, and this object is sign up and sign in users in the application, then you can register a new user and sign in the appplication after using credentials that compose the nickname and user biometrics.
 
-This project contains anothers project using GitHub submodules and this submodules are:
-- ephratria-autenticacao: This project contains rules and implementation for ecommerce about user authentication when they're trying to do login in plataform then will be authenticate with your biometry (face recognize).
-- ephratria-catalogo: This project contains rules and implementation for ecommerce about all products available in plataform and will implementation the part that the user create post and looking for products in post created before.
-- ephratria-financeiro: This project contains rules and implementation for ecommerce about payment and received inside plataform, then this module is control the part the accountting of system and transaction between users.
-- ephratria-frontend: This project contains all implemetation for ecommerce about graphic interface for users. 
+## How to use
+### - Routes
+The routes to contains in this API are describe bellow:
 
-At all projects we will use the workflow abouve:
-- stagging: This branch is responsable for create new features, fix issues, then here we create, delete and change de repo.
-- development: This branch is receveid pull request from **stagging** and in this branch we test the code in development enviroment
-- homologation: This branch is receveid pull request from **development** and in this branch we test quality assurance of software.
-- production: This branch is received pull request from **homologation** and in this branch we will be the continous integration and continous delivery in AWS plataform.
+#### - Sign Up
+If you want to sign up a new user use this route
 
-All the project will use containers to control enviroment the development, and will be the tool called Docker.
+```http
+POST {{host}}/v1/signup/
+Content-Type: application/json
+```
+
+```json
+{
+  "firstName": "Pedro",
+  "lastName": "Lima",
+  "email": "contact@pedrofreitaslma.com",
+  "nickName": "pedrofreitaslima"
+}
+```
+
+#### - Sign In
+If you want to sign in, first enter with nickname
+
+```http
+POST {{host}}/v1/signin/{nickname}
+Content-Type: application/json
+```
+
+```json
+{
+  "nickName": "pedrofreitaslima"
+}
+```
+
+#### - Attach Biometric
+If you want to attach your face biometric, create a new user  nickname before and after attach your face biometric in this user account
+
+```http
+POST {{host}}/v1/attach/{nickname}
+Content-Type: application/json
+```
+
+```json
+{
+  "biometricFile": "asdfsafas16131a6f5a46s1sa31asf6as41a16c13fas64as"
+}
+```
+
+#### - Authenticate Biometric
+If you want to sign in, after nickname validate then enter with your face biometric
+
+
+```http
+POST {{host}}/v1/auth/{nickname}
+Content-Type: application/json
+```
+
+```json
+{
+  "biometricFile": "asdfsafas16131a6f5a46s1sa31asf6as41a16c13fas64as"
+}
+
+
+## Technologies
+- .NET 7.0
+- C# 12.0
+- Docker
+- Kubernetes
+- AWS
+- API
+- API Gateway
+- Load Balance
+- AWS S3
+- AWS RDS
+
+## Patterns
+- Object-Oriented Programming
+- Clean Architecture
+- Clean Code
+- Domain Driven Design (DDD)
+- Test Driven Development (TDD)
+- Unit Test
+- Integration Test
+- Don't repeat youself (DRY)
+- Keep it Simple, Stupid (KISS)
+- SOLID
+- You aren't gonna neded it (YAGNI)
+- Dependency Injection (DI)
+
+
+## Tools
+- JetBrains Rider
+- Visual Studio Code
+- Insominia
+
+## Dependencies
+- XUnit
+- Mapster
+- ErrorOr
+- FluentValidators
+- FluentAssertions
+- Moq
+- MediatR
+- Microsoft.AspNetCore.Authentication.JwtBearer
+- Microsoft.IdentityModel
+
+## Authors
+&copy; EPhratria &copy;
+#### Integrants:
+- Bruno Fabiani Alves Peres
+- Lucas Santos do Nascimento
+- Maísa Serpa Castro Moreira
+- Pedro Henrique Alexandre Freitas de Lima
+- Rafael Lee Avalo de Melo Gaia
