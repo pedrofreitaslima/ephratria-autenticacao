@@ -1,3 +1,4 @@
 namespace Ephratria.Authentication.Contract.SignUp;
 
-public record AttachResponse();
+public record AttachResponse(
+    bool StatusBiometricFile);

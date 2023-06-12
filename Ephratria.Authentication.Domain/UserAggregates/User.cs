@@ -1,3 +1,5 @@
+using Ephratria.Authentication.Domain.Commons.Enums;
+
 namespace Ephratria.Authentication.Domain.UserAggregates;
 
 public class User 
@@ -8,4 +10,5 @@ public class User
     public string Email { get; set; } = string.Empty;
     public string NickName { get; set; } = string.Empty;
     public string Biometry { get; set; } = string.Empty;
+    public UserStatus Status { get; set; } = UserStatus.NotValidEmail;
 }

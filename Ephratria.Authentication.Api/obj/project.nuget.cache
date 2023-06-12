@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GcuGQ0w0NpA0CWUnYke+F7k9/fhXxnaW3TH1bUX/xCSdXaWTZFe/6LGrmMgLzb/HUCh8B8LUuzcpM+Ij5m6Mvw==",
+  "dgSpecHash": "JDVannMrBdmS0t0HekiQeGuaKm9S+nmrTXxRxhcSK8/RARrpOnKUkKdpxXKadN3spVFkhHDFGVMvmWncWPzFBw==",
   "success": true,
   "projectFilePath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Api/Ephratria.Authentication.Api.csproj",
   "expectedPackageFiles": [

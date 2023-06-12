@@ -1,3 +1,4 @@
 namespace Ephratria.Authentication.Contract.SignIn;
 
-public record SignInResponse();
+public record SignInResponse(
+    bool NickNameIsValid);

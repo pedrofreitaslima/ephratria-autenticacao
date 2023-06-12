@@ -10,3 +10,15 @@
 /home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/refint/Ephratria.Authentication.Domain.dll
 /home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.pdb
 /home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/ref/Ephratria.Authentication.Domain.dll
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/bin/Debug/net7.0/Ephratria.Authentication.Domain.deps.json
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/bin/Debug/net7.0/Ephratria.Authentication.Domain.dll
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/bin/Debug/net7.0/Ephratria.Authentication.Domain.pdb
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.csproj.AssemblyReference.cache
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.AssemblyInfoInputs.cache
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.AssemblyInfo.cs
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.csproj.CoreCompileInputs.cache
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.dll
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/refint/Ephratria.Authentication.Domain.dll
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/Ephratria.Authentication.Domain.pdb
+/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/obj/Debug/net7.0/ref/Ephratria.Authentication.Domain.dll

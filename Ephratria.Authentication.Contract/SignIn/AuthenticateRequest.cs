@@ -1,3 +1,4 @@
 namespace Ephratria.Authentication.Contract.SignIn;
 
-public record AuthenticateRequest();
+public record AuthenticateRequest(
+    byte[] BiometricFile);
