@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+nJCTfaCxeHPv02AgVRrgzafJrLxEorpyhb9hBuzWOKNLPrY2M5fQNGNvlPmSmIG7j4uoL8EeH3N5TQcv86hg==",
+  "dgSpecHash": "HknWYlmq+0jAxllyE8fAUEnhHOS5FyPLm7ZA5I5UyzyDV/sLtx82Zn3cER79ZgZCl+sSwr4w3hJjE37TWadytA==",
   "success": true,
-  "projectFilePath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Domain/Ephratria.Authentication.Domain.csproj",
+  "projectFilePath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Domain/Ephratria.Authentication.Domain.csproj",
   "expectedPackageFiles": [
     "/home/pedro/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
   ],

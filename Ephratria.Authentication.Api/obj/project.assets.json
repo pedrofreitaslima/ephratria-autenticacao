@@ -1923,11 +1923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Api/Ephratria.Authentication.Api.csproj",
+      "projectUniqueName": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Api/Ephratria.Authentication.Api.csproj",
       "projectName": "Ephratria.Authentication.Api",
-      "projectPath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Api/Ephratria.Authentication.Api.csproj",
+      "projectPath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Api/Ephratria.Authentication.Api.csproj",
       "packagesPath": "/home/pedro/.nuget/packages/",
-      "outputPath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Api/obj/",
+      "outputPath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/pedro/.nuget/NuGet/NuGet.Config"
@@ -1943,14 +1943,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Application/Ephratria.Authentication.Application.csproj": {
-              "projectPath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Application/Ephratria.Authentication.Application.csproj"
+            "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Application/Ephratria.Authentication.Application.csproj": {
+              "projectPath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Application/Ephratria.Authentication.Application.csproj"
             },
-            "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj": {
-              "projectPath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj"
+            "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj": {
+              "projectPath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj"
             },
-            "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Infrastructure/Ephratria.Authentication.Infrastructure.csproj": {
-              "projectPath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Infrastructure/Ephratria.Authentication.Infrastructure.csproj"
+            "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Infrastructure/Ephratria.Authentication.Infrastructure.csproj": {
+              "projectPath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Infrastructure/Ephratria.Authentication.Infrastructure.csproj"
             }
           }
         }

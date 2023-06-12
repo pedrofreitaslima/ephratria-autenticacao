@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uqfy5x/esDWzJSotXv6CnNoS5aZWmZRB/waLrmncLBCWVtCq3bD0j1nNbxciYKvfspSBgE30Cbviljzby0MaAQ==",
+  "dgSpecHash": "GcuGQ0w0NpA0CWUnYke+F7k9/fhXxnaW3TH1bUX/xCSdXaWTZFe/6LGrmMgLzb/HUCh8B8LUuzcpM+Ij5m6Mvw==",
   "success": true,
-  "projectFilePath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Api/Ephratria.Authentication.Api.csproj",
+  "projectFilePath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Api/Ephratria.Authentication.Api.csproj",
   "expectedPackageFiles": [
     "/home/pedro/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
     "/home/pedro/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",

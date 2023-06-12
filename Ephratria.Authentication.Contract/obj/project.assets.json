@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj",
+      "projectUniqueName": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj",
       "projectName": "Ephratria.Authentication.Contract",
-      "projectPath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj",
+      "projectPath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj",
       "packagesPath": "/home/pedro/.nuget/packages/",
-      "outputPath": "/home/pedro/projects/EPhatria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/",
+      "outputPath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Contract/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/pedro/.nuget/NuGet/NuGet.Config"
