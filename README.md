@@ -65,7 +65,7 @@ Content-Type: application/json
 {
   "biometricFile": "asdfsafas16131a6f5a46s1sa31asf6as41a16c13fas64as"
 }
-
+```
 
 ## Technologies
 - .NET 7.0
