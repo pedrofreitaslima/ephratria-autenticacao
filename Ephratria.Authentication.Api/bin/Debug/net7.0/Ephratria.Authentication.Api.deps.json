@@ -375,6 +375,9 @@
         }
       },
       "Ephratria.Authentication.Contract/1.0.0": {
+        "dependencies": {
+          "Ephratria.Authentication.Domain": "1.0.0"
+        },
         "runtime": {
           "Ephratria.Authentication.Contract.dll": {}
         }

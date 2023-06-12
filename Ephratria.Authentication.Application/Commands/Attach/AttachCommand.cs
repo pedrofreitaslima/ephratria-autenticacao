@@ -1,6 +1,8 @@
+using Ephratria.Authentication.Application.Results;
+using MediatR;
+using ErrorOr;
+
 namespace Ephratria.Authentication.Application.Commands;
 
-public class AttachCommand
-{
-    
-}
+public record AttachCommand(
+    byte[] BiometricFile) : IRequest<ErrorOr<AttachResult>>;

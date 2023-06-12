@@ -10,5 +10,5 @@ public class User
     public string Email { get; set; } = string.Empty;
     public string NickName { get; set; } = string.Empty;
     public string Biometry { get; set; } = string.Empty;
-    public UserStatus Status { get; set; } = UserStatus.NotValidEmail;
+    public UserStatus Status { get; set; } = UserStatus.PendentEmail;
 }

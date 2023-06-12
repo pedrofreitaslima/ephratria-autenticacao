@@ -1,6 +1,11 @@
+using FluentValidation;
+
 namespace Ephratria.Authentication.Application.Commands;
 
-public class SignUpCommandValidator
+public class SignUpCommandValidator : AbstractValidator<SignUpCommand>
 {
-    
+    public SignUpCommandValidator()
+    {
+        
+    }
 }

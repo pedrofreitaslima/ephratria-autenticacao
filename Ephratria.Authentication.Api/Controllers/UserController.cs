@@ -1,7 +1,15 @@
+using Ephratria.Authentication.Application.Commands;
+using Ephratria.Authentication.Application.Queries;
+using Ephratria.Authentication.Application.Results;
+using Ephratria.Authentication.Contract.SignIn;
+using Ephratria.Authentication.Contract.SignUp;
+using Ephratria.Authentication.Domain.Commons.Errors;
 using MapsterMapper;
 using MediatR;
+using ErrorOr;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SignInResult = Ephratria.Authentication.Application.Results.SignInResult;
 
 namespace Ephratria.Authentication.Api.Controllers;
 
@@ -19,26 +27,60 @@ public class UserController : EphratriaBaseController
     }
     
     [Route("signup")]
-    public IActionResult SignUp()
+    public async Task<IActionResult> SignUp(SignUpRequest request)
     {
-        return Ok();
+        var command = _mapper.Map<SignUpCommand>(request);
+        ErrorOr<SignUpResult> result = await _mediator.Send(command);
+        
+        return result.Match(
+            success => Ok(_mapper.Map<SignUpResponse>(success)),
+            errors => Problem(errors)
+        );
     }
     
     [Route("attach")]
-    public IActionResult AttachBiometry()
+    public async Task<IActionResult> AttachBiometry(AttachRequest request)
     {
-        return Ok();
+        var command = _mapper.Map<AttachCommand>(request);
+        ErrorOr<AttachResult> result = await _mediator.Send(command);
+        
+        return result.Match(
+            success => Ok(_mapper.Map<AttachResponse>(success)),
+            errors => Problem(errors)
+        );
     }
     
     [Route("signin")]
-    public IActionResult SignIn()
+    public async Task<IActionResult> SignIn(SignInRequest request)
     {
-        return Ok();
+        var query = _mapper.Map<SignInQuery>(request);
+        ErrorOr<SignInResult> result = await _mediator.Send(query);
+        
+        if (result.IsError && result.FirstError == Errors.SignIn.InvalidNickname)
+        {
+            return Problem(statusCode: StatusCodes.Status401Unauthorized, 
+                title: result.FirstError.Description);
+        }
+        return result.Match(
+            success => Ok(_mapper.Map<SignInResponse>(success)),
+            errors => Problem(errors)
+        );
     }
     
     [Route("auth")]
-    public IActionResult Authenticate()
+    public async Task<IActionResult> Authenticate(AuthenticateRequest request)
     {
-        return Ok();
+        var query = _mapper.Map<AuthenticateQuery>(request);
+        ErrorOr<AuthenticateResult> result = await _mediator.Send(query);
+        
+        if (result.IsError && result.FirstError == Errors.Authenticate.InvalidBiometrics)
+        {
+            return Problem(statusCode: StatusCodes.Status401Unauthorized, 
+                title: result.FirstError.Description);
+        }
+        return result.Match(
+            success => Ok(_mapper.Map<AuthenticateResponse>(success)),
+            errors => Problem(errors)
+        );
     }
 }

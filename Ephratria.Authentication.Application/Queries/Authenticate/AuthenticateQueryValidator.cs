@@ -1,6 +1,11 @@
+using FluentValidation;
+
 namespace Ephratria.Authentication.Application.Queries;
 
-public class AuthenticateQueryValidator
+public class AuthenticateQueryValidator: AbstractValidator<AuthenticateQuery>
 {
-    
+    public AuthenticateQueryValidator()
+    {
+        
+    }
 }
