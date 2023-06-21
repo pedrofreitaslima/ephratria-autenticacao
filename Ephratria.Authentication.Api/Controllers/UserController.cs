@@ -26,6 +26,7 @@ public class UserController : EphratriaBaseController
         _mapper = mapper;
     }
     
+    #region Sign Up Context
     [Route("signup")]
     public async Task<IActionResult> SignUp(SignUpRequest request)
     {
@@ -37,8 +38,33 @@ public class UserController : EphratriaBaseController
             errors => Problem(errors)
         );
     }
+
+    [HttpGet("validate-nickname")]
+    public async Task<IActionResult> ValidateNickname(object request)
+    {
+        await Task.CompletedTask;
+        
+        // crete query
+        // get result
+        // info response
+        
+        return default;
+    }
     
-    [Route("attach")]
+    [HttpGet("validate-email")]
+    public async Task<IActionResult> ValidateEmail(object request)
+    {
+        await Task.CompletedTask;
+        
+        // crete query
+        // get result
+        // info response
+        
+        return default;
+    }
+    
+    
+    [Route("attach-biometry")]
     public async Task<IActionResult> AttachBiometry(AttachRequest request)
     {
         var command = _mapper.Map<AttachCommand>(request);
@@ -49,6 +75,8 @@ public class UserController : EphratriaBaseController
             errors => Problem(errors)
         );
     }
+    
+    #endregion
     
     [Route("signin")]
     public async Task<IActionResult> SignIn(SignInRequest request)
@@ -67,7 +95,7 @@ public class UserController : EphratriaBaseController
         );
     }
     
-    [Route("auth")]
+    [Route("auth-biometric")]
     public async Task<IActionResult> Authenticate(AuthenticateRequest request)
     {
         var query = _mapper.Map<AuthenticateQuery>(request);
