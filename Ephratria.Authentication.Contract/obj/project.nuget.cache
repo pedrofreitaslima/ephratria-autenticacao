@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LzXA3hgO7QWuExQb9CFWNJS8DAw3XrKrBiJoJ1mQYPLTK1z77S4E3dPyZsezpW13/84ECxg/e0OQkUdrUBvrVw==",
+  "dgSpecHash": "xUvv4VqUo321vNvUZrl5IQAHiqclqIuCcBWi4C3CwIUnRTV9DUAOyGXACCbzhCjqqwbQRw/Ppv9LnUdIQONk0g==",
   "success": true,
   "projectFilePath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj",
   "expectedPackageFiles": [
