@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "L5yym0li0o00NgIQO/udoC9kaRhFikQfKszWenuDuDoIzCzMyEcq4wjn6FfYzMwxtVz23wLKUEYyjbuuwFznaQ==",
+  "dgSpecHash": "WjXCiQVxynMtZyOQvubz2BEUPCB+Pp5Aj+x/cTMdSCiuQSKmtvZl5hKHJkBF1PPr7J66Pp2nDrvrKwHz6MITiw==",
   "success": true,
   "projectFilePath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Application/Ephratria.Authentication.Application.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "/home/pedro/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
     "/home/pedro/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/pedro/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "/home/pedro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-preview.4.23259.5/microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512"
+    "/home/pedro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

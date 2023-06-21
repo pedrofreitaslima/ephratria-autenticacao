@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xUvv4VqUo321vNvUZrl5IQAHiqclqIuCcBWi4C3CwIUnRTV9DUAOyGXACCbzhCjqqwbQRw/Ppv9LnUdIQONk0g==",
+  "dgSpecHash": "AYisppNrZgXhAGTZc14tMPysWyzilaYqa83Kz5aRxbgxDlfLy/dn56lwdeRbenILZqHanbHzTvzV5a0HF3atbQ==",
   "success": true,
   "projectFilePath": "/home/pedro/repos/github/EPhratria/ephratria-autenticacao/Ephratria.Authentication.Contract/Ephratria.Authentication.Contract.csproj",
   "expectedPackageFiles": [
-    "/home/pedro/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
+    "/home/pedro/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
+    "/home/pedro/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/home/pedro/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

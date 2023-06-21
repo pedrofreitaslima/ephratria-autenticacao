@@ -1,4 +1,12 @@
-.vscode
-.idea
-obj
-bin
+.vscode/*
+.idea/*
+Ephratria.Authentication.Infrastructure/obj/*
+Ephratria.Authentication.Api/obj/*
+Ephratria.Authentication.Application/obj/*
+Ephratria.Authentication.Contract/obj/*
+Ephratria.Authentication.Domain/obj/*
+Ephratria.Authentication.Infrastructure/bin/*
+Ephratria.Authentication.Api/bin/*
+Ephratria.Authentication.Application/bin/*
+Ephratria.Authentication.Contract/bin/*
+Ephratria.Authentication.Domain/bin/*

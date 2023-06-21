@@ -64,7 +64,7 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0-preview.4.23259.5, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -124,6 +124,10 @@
             "ErrorOr": {
               "target": "Package",
               "version": "[1.2.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             }
           },
           "imports": [
